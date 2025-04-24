@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98 #-fsanitize=address -g
 
 RM = rm -rf
 
-SRCS = main.cpp
+SRCS = main.cpp Span.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
